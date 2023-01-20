@@ -71,4 +71,4 @@ if __name__ == '__main__':
     st.title('Datos de profesores. Altas, Bajas, Cambios, Consultas')
     # llama a procedimiento para control de datos de profesores
     # funcion CRUD: Create, Remove, UpDate de un archivo csv como parametro
-    crud('Profes3.csv')
+    crud('/app/streamlitwebapps/pages/Profes3.csv')
