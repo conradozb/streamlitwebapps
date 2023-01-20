@@ -7,8 +7,7 @@ Control de Cursos. Manejo de profesores.
 """
 import streamlit as st
 import pandas as pd
-#pip install streamlit-aggrid
-from st_aggrid import AgGrid
+#from st_aggrid import AgGrid
 from st_aggrid.shared import GridUpdateMode
 from st_aggrid.grid_options_builder import GridOptionsBuilder
 def crud(path):
