@@ -71,4 +71,4 @@ if __name__ == '__main__':
     st.title('Datos de profesores. Altas, Bajas, Cambios, Consultas')
     # llama a procedimiento para control de datos de profesores
     # funcion CRUD: Create, Remove, UpDate de un archivo csv como parametro
-    crud('C:\\Users\\conza\\ControlCursos\\multi\\pages\\Profes3.csv')
+    crud('Profes3.csv')
