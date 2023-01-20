@@ -19,7 +19,7 @@ st.markdown('Esta Streamlit app explora algunas variables de los estudiantes y\
 grades_file = st.radio("Selecciona el origen de archivo",
                        ("Archivo por defecto","Subir archivo local"))
 if grades_file == "Archivo por defecto":
-    grades_df = pd.read_csv('C:\\Users\\conza\\ControlCursos\\multi\\pages\\gradedata3.csv')  
+    grades_df = pd.read_csv('/app/streamlitwebapps/pages/gradedata3.csv')  
 if grades_file == "Subir archivo local":    
     grades_file = st.file_uploader('Selecciona archivo CSV') 
     if grades_file is not None: 
